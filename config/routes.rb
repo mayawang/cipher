@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  get 'encodings/index'
+
+  get 'encodings/new'
+
+  post 'encodings/show'
+  get 'encodings/show'
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
